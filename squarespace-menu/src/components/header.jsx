@@ -24,7 +24,7 @@ const Header = () => {
                         class={showResourcesMenu ? "hover" : ""}
                         onMouseEnter={() => setResourcesMenu(true)}
                         onMouseLeave={() => setResourcesMenu(false)}
-                    >RESOURCES <span class="arrow"></span></button>
+                    >RESOURCES <span className="arrow"></span></button>
                 </div>
 
                 {/* sub menu */}
@@ -61,6 +61,7 @@ const Header = () => {
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </header>
